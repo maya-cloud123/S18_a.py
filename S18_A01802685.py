@@ -9,30 +9,16 @@ for n in numeros:
     impares.append(n)
 
 
-numeros sin repetir 
-usuario=[]
-mientras verdadero 
-nombre= entrada("nombre (fin parasalir):").mas bajo()
-si nombre=="´´
-romper
-si nombre en usuario:
-imprimir("ese nimbre ya existe.")
-demas:
-usuario. añadir(nombre) 
-imprimir("usuarioa finales:",usuarios)
 
-temp=[14,16,18,20,22,24]
-medios de comunicacion= suma(temp)/prestado(temp)
+temperaturas=[14,16,18,20,22,24, 30, 35]
+tempPromedio = sum(temperaturas)/len(temperaturas)
 
-imprimir("temp:",mediosde comunicaccion) 
-para i en temperatura 
-si i medios de comunicaccion:
- imprimir(i,"arribade la media")
-Elif i medios de comunicaccion:
-imprimir(i,"igual a la media")
+for temp in temperaturas:
+    if temp < tempPromedio:
+        print(temp, " está debajo del promedio")
+    elif temp > tempPromedio:
+        print(temp, " está arriba del promedio")
 
-dinero delaware dos personas
-p1+[100,50,200]
 
 
 
